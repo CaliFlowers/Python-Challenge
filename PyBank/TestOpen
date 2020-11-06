@@ -1,0 +1,17 @@
+import os
+
+import csv,
+
+csvpath = os.path,join(;dataclass', 'resources', 'budget_data',)
+
+with open(csvpath, 'r') as csvfile:
+
+csvreader = csv.reader( csvfile, delimiter=',')
+
+print (csvreader)
+
+print(f"csvheader: {csv_header}")
+
+for row in csvreader: 
+    print (row[1])
+
